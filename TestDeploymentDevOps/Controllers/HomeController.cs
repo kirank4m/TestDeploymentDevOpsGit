@@ -10,6 +10,7 @@ namespace TestDeploymentDevOps.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.TestMessage = "Check The git working commits";
             return View();
         }
 
